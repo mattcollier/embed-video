@@ -2,8 +2,12 @@
 <html>
   <head>
     <title>Embeded Google Drive Video Demo</title>
+    <script src="https://cdn.plyr.io/3.3.22/plyr.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.3.22/plyr.css">
   </head>
   <body>
-    <iframe src="https://drive.google.com/file/d/1N7G9baLqzZmc2Pb8pTW0CkLHUISVccfD/preview" width="800" height="450"></iframe>
+    <video poster="plantphoto.jpg" id="player" playsinline controls>
+      <source src="slides.mp4" type="video/mp4">
+    </video>
   </body>
 </html>
